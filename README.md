@@ -50,5 +50,8 @@ If using a migration map you may need to configure the def process_rows_from_csv
   template = row[2]
 
 ## Running the migration process. 
+1.Open a teriminal 
+2. Navigate to your migration folder. 
+3. Enter "ruby migrate_from_wp.rb"
 
  
