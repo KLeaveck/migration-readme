@@ -14,6 +14,7 @@ You will be provided with a XML file.
 
 ## Configuring the migration process. 
 1. In the root of ou-migration-tool open the config.rb file in a text editor.
+
 #### 2. Mapping Toogle
 At the top of the config.rb file there is a mapping toggle section. 
 
