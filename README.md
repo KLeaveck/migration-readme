@@ -1,6 +1,6 @@
 ***The included source code, service and information is provided as is, and OmniUpdate makes no promises or guarantees about its use or misuse. The source code provided is recommended for advanced users and may not be compatible with all implementations of OU Campus.***
 
-# Simple Site
+# Ruby Migration Script For XML Exported Wordpress Content into OU Campus. 
 - This package contains code for a small sample website that can be used in OU Campus.
 
 ## Installation
