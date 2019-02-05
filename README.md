@@ -32,6 +32,7 @@ As we migrate individual page content into OU capus we will target the <link></l
 
 <link>https://www.gallena.edu/academics/library</link>
 
+
 Be entering https://www.gallena.edu into the SOURCE_URL_BASE varaible 
 
 <link>https://www.gallena.edu/academics/library</link>
