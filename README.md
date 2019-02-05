@@ -26,6 +26,17 @@ MAP = "yes"
 MAP = "no"
 
 #### 3. SOURCE_URL_BASE
+The <link> node in your xml soucres will be a absolute source URL. Becuase that URL will be different when uploading your content to OU campus we need to remove it. In our example the base url is https://www.gallena.edu however yours will be different unless you are usings our xml source. 
 
+#### 4. WP_SOURCE_FILE 
+If using a source other then the provided in our example you will need to update this variable to match the name of your xml export file that you copied to the source folder. 
+
+#### 5. OUTPUT_EXTENSION 
+Update this variable to refelct the language your OU server uses. 
+
+#### 6. INDEX_NAME 
+Update this vairable to be "index" if server language is PHP or "default" if server language is ASP 
+
+## Running the migration process. 
 
 
