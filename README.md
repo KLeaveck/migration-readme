@@ -1,6 +1,6 @@
 ***The included source code, service, and the information is provided as is, and OmniUpdate makes no promises or guarantees about its use or misuse. The source code provided is recommended for advanced users and may not be compatible with all implementations of OU Campus.***
 
-** This tool is only meant to migrate straight content. This tool is not meant to migrate content inside of plugins or other applications. **
+**This tool is only meant to migrate straight content. This tool is not meant to migrate content inside of plugins or other applications.**
 
 # Ruby Migration Script For XML Exported Wordpress Content into OU Campus. 
 - This script will allow users to migrate their WordPress content into OU campus. 
