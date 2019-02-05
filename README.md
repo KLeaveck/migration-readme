@@ -19,16 +19,31 @@
 
 At the top of the config.rb file there is a mapping toggle section. 
 
--If you have uploaded a csv and are using a migration map then this section should be set to 
+-If you have uploaded a csv and are using a migration map then this section should be uncommented
 
 MAP = "yes"
 
--If you are not using a migration map and will be strictly migration from your xml source only then this section should be set to 
+-If you are not using a migration map and will be strictly migration from your xml source only then this section should be uncommented
 
 MAP = "no"
 
 #### 3. SOURCE_URL_BASE
-The <link> node in your xml soucres will be a absolute source URL. Becuase that URL will be different when uploading your content to OU campus we need to remove it. In our example the base url is https://www.gallena.edu however yours will be different unless you are usings our xml source. 
+As we migrate individual page content into OU capus we will target the <link></link> nodes in your xml source and use these as the new file paths for the carried over pages. Because the URL will a absolute path of the old worpress site we will need to clean up the url and remove the website root. In our example source one of the link node contains the URL 
+
+<link>https://www.gallena.edu/academics/library</link>
+
+Be entering https://www.gallena.edu into the SOURCE_URL_BASE varaible 
+
+<link>https://www.gallena.edu/academics/library</link>
+
+Will be...
+
+academics/library 
+
+After we upload the new pages to OU Campus they will have a full URL of 
+
+http://dev.yourOUsite.edu/academics/library.pcf
+
 
 #### 4. WP_SOURCE_FILE 
 If using a source other then the provided in our example you will need to update this variable to match the name of your xml export file that you copied to the source folder. 
