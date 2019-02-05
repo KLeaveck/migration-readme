@@ -10,9 +10,15 @@ You will be provided with a XML file.
 ## Setting up the migration process. 
 1. Download the complete migration folder from github. 
 2. Copy the xml file generated from the previous task into the ou-migration-tool --> source folder.
+3. If you will be using a "migration map" during this process upload the migration-map.csv into the ou-migration-tool --> migration_maps folder 
 
 ## Configuring the migration process. 
-1. In the root of ou-migration-tool open the config.rb file. 
-2. 
+1. In the root of ou-migration-tool open the config.rb file in a text editor.
+2. At the top of the config.rb file there is a mapping toggle section. If you have uploaded a csv and are using a migration map then this section should be set to..
+MAP = "yes"
+If you are not using a migration map and will be strictly migration form your xml source only then this section should be set to..
+MAP = "no"
+
+
 
 
