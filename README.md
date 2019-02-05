@@ -36,7 +36,10 @@ By entering https://www.gallena.edu into the SOURCE_URL_BASE varaible
 
 
 <link>https://www.gallena.edu/academics/library</link>
-
+ 
+ 
+ 
+ 
 Will become...
 
 academics/library 
