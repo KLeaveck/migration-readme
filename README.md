@@ -18,10 +18,11 @@ You will be provided with a XML file.
 
       MAP = "yes"
 
-    If you are not using a migration map and will be strictly migration form your xml source only then this section should be set to..
+    If you are not using a migration map and will be strictly migration from your xml source only then this section should be set to..
 
      MAP = "no"
 
+### SOURCE_URL_BASE
 
 
 
