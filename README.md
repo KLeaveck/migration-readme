@@ -11,7 +11,7 @@
 ## Setting up the migration process. 
 1. Download this complete migration folder from GitHub. 
 2. Copy the xml file generated from the previous task into the ou-migration-tool --> "source" folder.
-3. If you will be using a **migration map** during this process upload the migration-map.csv into the ou-migration-tool --> migration_maps folder 
+3. If you will be using a **migration map** during this process copy the migration-map.csv into the ou-migration-tool --> migration_maps folder 
 
 
 ## Configuring the migration process. 
