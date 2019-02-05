@@ -16,11 +16,11 @@ You will be provided with a XML file.
 1. In the root of ou-migration-tool open the config.rb file in a text editor.
 2. At the top of the config.rb file there is a mapping toggle section. If you have uploaded a csv and are using a migration map then this section should be set to..
 
-  MAP = "yes"
+      MAP = "yes"
 
-  If you are not using a migration map and will be strictly migration form your xml source only then this section should be set to..
+    If you are not using a migration map and will be strictly migration form your xml source only then this section should be set to..
 
-  MAP = "no"
+     MAP = "no"
 
 
 
