@@ -18,6 +18,7 @@ You will be provided with a XML file.
 
 
 #### 2. Mapping Toogle
+
 At the top of the config.rb file there is a mapping toggle section. 
 
 -If you have uploaded a csv and are using a migration map then this section should be set to 
