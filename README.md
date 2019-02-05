@@ -1,6 +1,6 @@
 ***The included source code, service, and the information is provided as is, and OmniUpdate makes no promises or guarantees about its use or misuse. The source code provided is recommended for advanced users and may not be compatible with all implementations of OU Campus.***
 
-**This tool is only meant to migrate straight content. This tool is not meant to migrate content inside of plugins or other applications.**
+**This tool is only meant to migrate organic WordPress content. This tool is not meant to migrate content inside of plugins or other applications.**
 
 # Ruby Migration Script For XML Exported Wordpress Content into OU Campus. 
 - This script will allow users to migrate their WordPress content into OU campus. 
@@ -67,8 +67,11 @@ Update this variable to reflect the language your OU server uses.
 #### 9. INDEX_NAME 
 Update this variable to be "index" if server language is PHP or "default" if server language is ASP 
 
-#### 10. Adjusting def process_rows_from_csv(row, i, xml_doc) function
-If using a migration map you may need to configure the def process_rows_from_csv(row, i, xml_doc) function to reflect the setup of your migration-map.csv. Navigate to migrate_from_wordpress.rb file and scroll down untill you locate the def process_rows_from_csv(row, i, xml_doc) function. Inside of the function there are 3 variables that need to be updated if they are not already pointing to the correct index on your migration map.
+#### 10. WP_PLUGIN_CODE_DISPLAY
+These configurations give users a variety of options on how to deal with plugin tags. 
+
+#### 11. Adjusting def process_rows_from_csv(row, i, xml_doc) function
+If using a migration map you may need to configure the def process_rows_from_csv(row, i, xml_doc) function to reflect the setup of your migration-map.csv. Navigate to migrate_from_wordpress.rb file and scroll down until you locate the def process_rows_from_csv(row, i, xml_doc) function. Inside of the function, there are 3 variables that need to be updated if they are not already pointing to the correct index on your migration map.
 
   orig_path = row[0]
   
