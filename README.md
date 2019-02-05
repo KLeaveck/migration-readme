@@ -12,10 +12,9 @@ You will be provided with a XML file.
 2. Copy the xml file generated from the previous task into the ou-migration-tool --> source folder.
 3. If you will be using a "migration map" during this process upload the migration-map.csv into the ou-migration-tool --> migration_maps folder 
 
+
 ## Configuring the migration process. 
 1. In the root of ou-migration-tool open the config.rb file in a text editor.
-
-
 
 #### 2. Mapping Toogle
 
