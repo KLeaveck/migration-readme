@@ -17,9 +17,13 @@ You will be provided with a XML file.
 #### 2. Mapping Toogle
 At the top of the config.rb file there is a mapping toggle section. 
 
--If you have uploaded a csv and are using a migration map then this section should be set to MAP = "yes"
+-If you have uploaded a csv and are using a migration map then this section should be set to 
 
--If you are not using a migration map and will be strictly migration from your xml source only then this section should be set to MAP = "no"
+MAP = "yes"
+
+-If you are not using a migration map and will be strictly migration from your xml source only then this section should be set to 
+
+MAP = "no"
 
 #### 3. SOURCE_URL_BASE
 
