@@ -40,6 +40,12 @@ Update this variable to refelct the language your OU server uses.
 #### 6. INDEX_NAME 
 Update this vairable to be "index" if server language is PHP or "default" if server language is ASP 
 
+#### 7. Adjusting def process_rows_from_csv(row, i, xml_doc) function
+If using a migration map you may need to configure the def process_rows_from_csv(row, i, xml_doc) funciton to refelect the setup of your migration-map.csv. There are 3 variabes that need to be updated if they are not correct in the default setting 
+  orig_path = row[0]
+  new_path = row[1]
+  template = row[2]
+
 ## Running the migration process. 
 
  
