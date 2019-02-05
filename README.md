@@ -28,7 +28,7 @@ MAP = "yes"
 MAP = "no"
 
 #### 3. SOURCE_URL_BASE
-As we migrate individual page content into OU capus we will target the <link></link> nodes in your xml source and use these as the new file paths for the carried over pages. Because the URL will a absolute path of the old worpress site we will need to clean up the url and remove the website root. In our example source one of the link node contains the URL 
+As we migrate individual page content into OU capus we will target the <link></link> nodes in the xml source and use these as the new file paths for the carried over pages. Because the URL will a absolute path of the old wordpress site we will need to clean up the url and remove the website root. In our example source one of the link node contains the URL. 
 
 
 `<link>https://www.gallena.edu/academics/library</link>`
