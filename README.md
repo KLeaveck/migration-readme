@@ -4,12 +4,12 @@
 - This script will allow uses to migrate their wordpress content into OU campus. 
 
 ## Exporting Wordpress Content. 
-1. Starting in your wordpress dashboard navigate to mysite --> settings and then select "Export". On the next screen you will have the option to export your entire site or pick and choose which elements you would like to export. Once desired elements have been chose click the export button and a xml file of the wordpress site content will be downloaded. 
+ 1. Starting in your wordpress dashboard navigate to mysite --> settings and then select "Export". On the next screen you will have the option to export your entire site or pick and choose which elements you would like to export. Once desired elements have been chose click the export button and a xml file of the wordpress site content will be downloaded. 
 
 ## Setting up the migration process. 
-1. Download this complete migration folder from github. 
-2. Copy the xml file generated from the previous task into the ou-migration-tool --> "source" folder.
-3. If you will be using a **migration map** during this process upload the migration-map.csv into the ou-migration-tool --> migration_maps folder 
+ 1. Download this complete migration folder from github. 
+ 2. Copy the xml file generated from the previous task into the ou-migration-tool --> "source" folder.
+ 3. If you will be using a **migration map** during this process upload the migration-map.csv into the ou-migration-tool --> migration_maps folder 
 
 
 ## Configuring the migration process. 
