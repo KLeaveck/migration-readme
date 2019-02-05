@@ -3,11 +3,8 @@
 # Ruby Migration Script For XML Exported Wordpress Content into OU Campus. 
 - This package contains code for a small sample website that can be used in OU Campus.
 
-## Installation
-1. Compress _nav.inc, _props.pcf, _resources, about, index.pcf into a zip file
-2. Upload the compressed file
-3. Publish all files
-4. Navigate to the published pages and see if the content renders correctly
-5. If the simple site is on a C# server then configure the ASP includes in the functions.xsl file. Also change PCF extensions via find and replace to desired extension
+## Exporting Wordpress Content. 
+1. Starting in your wordpress dashboard navigate to mysite --> settings and then select "Export". 
+You will be provided with a XML file. 
 
 
