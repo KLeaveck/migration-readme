@@ -51,7 +51,7 @@ If using a migration map you may need to configure the def process_rows_from_csv
 
 ## Running the migration process. 
 
-1.Open a teriminal 
+1. Open a teriminal 
 
 2. Navigate to your migration folder.
 
