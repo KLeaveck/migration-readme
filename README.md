@@ -4,7 +4,7 @@
 - This script will allow users to migrate their WordPress content into OU campus. 
 
 ## Exporting Wordpress Content. 
-1. Starting in your WordPress dashboard navigate to mysite --> settings and then select "Export". On the next screen, you will have the option to export your entire site or pick and choose which elements you would like to export. Once desired elements have been chosen, click the export button and an xml file of the WordPress site content will be downloaded. 
+1. Starting in your WordPress dashboard navigate to mysite --> settings and then select "Export". On the next screen, you will have the option to export your entire site or pick and choose which elements you would like to export. Once desired elements have been chosen, click "Down Load Export File" button and an xml file of the WordPress site content will be downloaded. 
 
 ## Setting up the migration process. 
 1. Download this complete migration folder from GitHub. 
