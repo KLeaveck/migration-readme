@@ -28,7 +28,7 @@ MAP = "yes"
 MAP = "no"
 
 #### 3. SOURCE_URL_BASE
-As we migrate individual page content into OU capus we will target the <link></link> nodes in the xml source and use these as the new file paths for the carried over pages. Because the URL will a absolute path of the old wordpress site we will need to clean up the url and remove the website root. In our example source one of the link node contains the URL. 
+As we migrate individual page content into OU campus we will target the <link></link> nodes in the xml source and use these as the new file paths for the carried over pages. Because the URL will a absolute path of the old wordpress site we will need to clean up the url and remove the website root. In our example source one of the link node contains the URL. 
 
 
 `<link>https://www.gallena.edu/academics/library</link>`
@@ -39,8 +39,7 @@ By entering https://www.gallena.edu into the SOURCE_URL_BASE variable
 
 https://www.gallena.edu/academics/library
  
-  
-<br> Will become...
+Will become...
 
 academics/library 
 
@@ -48,24 +47,38 @@ After we upload the new pages to OU Campus they will have a full URL of
 
 http://dev.yourOUsite.edu/academics/library.pcf
 
+#### 4. Template Path
+For this tutorial we suggest using the default templates. 
 
-#### 4. WP_SOURCE_FILE 
+#### 5. Logs
+For this tutorial we suggest using the default logs and log paths. 
+
+#### 6. MIGRATION_MAP_PATH
+If you are using a migration map then update this variable to to point to the location of the CSV map you uploaded previously. If not using a map you can skip this step. 
+
+#### 7. WP_SOURCE_FILE 
 If using a source other then the provided in our example you will need to update this variable to match the name of your xml export file that you copied to the source folder. 
 
-#### 5. OUTPUT_EXTENSION 
+#### 8. OUTPUT_EXTENSION 
 Update this variable to refelct the language your OU server uses. 
 
-#### 6. INDEX_NAME 
+#### 9. INDEX_NAME 
 Update this vairable to be "index" if server language is PHP or "default" if server language is ASP 
 
-#### 7. Adjusting def process_rows_from_csv(row, i, xml_doc) function
+#### 10. Adjusting def process_rows_from_csv(row, i, xml_doc) function
 If using a migration map you may need to configure the def process_rows_from_csv(row, i, xml_doc) funciton to refelect the setup of your migration-map.csv. There are 3 variabes that need to be updated if they are not pointing to the correct index on your migration map.
 
   orig_path = row[0]
   
+  ex: academics/library 
+  
   new_path = row[1]
   
+  ex: academics/library 
+  
   template = row[2]
+  
+  ex: interior.pcf
 
 ## Running the migration process. 
 
@@ -75,4 +88,19 @@ If using a migration map you may need to configure the def process_rows_from_csv
 
 3. Enter "ruby migrate_from_wp.rb"
 
- 
+ ## Uploading to OU Campus.
+1. After you have run your script and generated your output files, move them into a zip file. 
+2. Navigate to desired location in a site in OU Campus. 
+3. Click upload and choose the **Import Zip File** option. 
+4. Choose the start upload button and check to make sure there are no errors. 
+5. Click upload button. 
+6. Open newly uploaded files in preview mode and check that the desired content was transferred. 
+7. Punlish out the uploaded folder and correct and errors that may of been reported during the publish process. 
+
+ ## Trouble Shooting. 
+If your are missing content after uploading to OU campus 
+1. Check the various migration log files. 
+2. Make sure you exported the desired elements in your wordpress export. 
+3. Republish in OU and look for the errors log after publish completes. 
+
+
