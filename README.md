@@ -59,7 +59,7 @@ For this tutorial, we suggest using the default logs and log paths.
 If you are using a migration map then update this variable to point to the location of the CSV map you uploaded previously. If not using a map you can skip this step. 
 
 #### 7. WP_SOURCE_FILE 
-If using a source other then the provided in our example you will need to update this variable to match the name of your xml export file that you copied to the source folder. 
+If using a source other then the one provided in our example you will need to update this variable to match the name of your xml export file that you copied to the source folder. 
 
 #### 8. OUTPUT_EXTENSION 
 Update this variable to reflect the language your OU server uses. 
@@ -68,7 +68,7 @@ Update this variable to reflect the language your OU server uses.
 Update this variable to be "index" if server language is PHP or "default" if server language is ASP 
 
 #### 10. WP_PLUGIN_CODE_DISPLAY
-These configurations give users a variety of options on how to deal with plugin tags. 
+These configurations give users a variety of options on how to deal with WordPress plugin tags. 
 
 #### 11. Adjusting def process_rows_from_csv(row, i, xml_doc) function
 If using a migration map you may need to configure the def process_rows_from_csv(row, i, xml_doc) function to reflect the setup of your migration-map.csv. Navigate to migrate_from_wordpress.rb file and scroll down until you locate the def process_rows_from_csv(row, i, xml_doc) function. Inside of the function, there are 3 variables that need to be updated if they are not already pointing to the correct index on your migration map.
