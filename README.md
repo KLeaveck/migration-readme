@@ -5,15 +5,14 @@
 # Ruby Migration Script For XML Exported Wordpress Content into OU Campus. 
 - This script will allow users to migrate their WordPress content into OU campus. 
 
-
 ## Setting up Simple Site
 This package contains code for a small sample website that can be used in OU Campus.
-Installation
-Navigate to https://github.com/omniupdate/example-code-simple-site#simple-site and download simple site as a Zip file.
-Upload Zip file to root
-Publish all files
-Navigate to the published pages and see if the content renders correctly
-If the simple site is on a C# server then configure the ASP includes in the functions.xsl file. Also change PCF extensions via find and replace to desired extension
+### Installation
+1. Navigate to https://github.com/omniupdate/example-code-simple-site#simple-site and download simple site as a Zip file.
+2. Upload Zip file to the root in your OU site.
+3. After upload Publish all files
+4. Navigate to the published pages and see if the content renders correctly
+5. If the simple site is on a C# server then configure the ASP includes in the functions.xsl file. Also change PCF extensions via find and replace to desired extension
 
 ## Exporting Wordpress Content. 
 1. Starting in your WordPress dashboard navigate to mysite --> settings and then select "Export". On the next screen, you will have the option to export your entire site or pick and choose which elements you would like to export. Once desired elements have been chosen, click "Down Load Export File" button and an xml file of the WordPress site content will be downloaded. 
