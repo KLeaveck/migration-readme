@@ -3,7 +3,7 @@
 **This tool is only meant to migrate organic WordPress content. This tool is not meant to migrate content inside of plugins or other applications.**
 
 # Ruby Migration Script For XML Exported Wordpress Content into OU Campus. 
-- This script will allow users to migrate their WordPress content into OU campus. 
+-This script will allow users to migrate their WordPress content into OU campus. 
 
 ## Setting up Simple Site
 This package contains code for a small sample website that can be used in OU Campus.
