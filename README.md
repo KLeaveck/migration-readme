@@ -8,7 +8,7 @@
 -This script will allow users to migrate their WordPress content into OU campus. 
 
 ## Setting up Simple Site
-This package contains code for a small sample website that can be used in OU Campus.
+This package contains code for a small sample website that can be used in OU Campus and will be to destination for your migrated WordPress content. 
 ### Installation
 1. Navigate to https://github.com/omniupdate/example-code-simple-site#simple-site and download simple site as a Zip file.
 2. Upload Zip file to the root in your OU site.
